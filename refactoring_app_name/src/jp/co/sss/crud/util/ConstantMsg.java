@@ -18,11 +18,12 @@ public class ConstantMsg {
 	public static final String MSG_ENTER_MENU_NUMBER = "メニュー番号を入力してください：";
 
 	/** 社員検索 */
-	public static final String ENTER_EMP_NAME = "社員名:";
+	public static final String MSG_ENTER_EMP_NAME = "社員名を入力してください:";
 	public static final String MSG_ENTER_DEPT_ID = "部署ID(1:営業部、2:経理部、3:総務部)を入力してください:";
 	public static final String MSG_NO_TARGET_PERSON = "該当者はいませんでした";
 
 	/** 社員登録 */
+	public static final String ENTER_EMP_NAME = "社員名:";
 	public static final String ENTER_GENDER = "性別(0:その他, 1:男性, 2:女性, 9:回答なし):";
 	public static final String ENTER_BIRTHDAY = "生年月日(西暦年/月/日):";
 	public static final String ENTER_DEPT_ID = "部署ID(1:営業部、2:経理部、3:総務部):";
@@ -64,5 +65,6 @@ public class ConstantMsg {
 	/** レイアウト */
 	/** 水平タブ */
 	public static final String TAB = "\t";
+	/** 空白 */
 	public static final String BLANK = "";
 }
