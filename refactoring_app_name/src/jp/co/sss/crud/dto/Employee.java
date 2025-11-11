@@ -59,13 +59,13 @@ public class Employee {
 	public String toString() {
 		String gender_ja = ConstantMsg.BLANK;
 		if (this.gender == 0) {
-			gender_ja = ConstantMsg.NO_ANSWER;
+			gender_ja = ConstantMsg.OTHER;
 		} else if (this.gender == 1) {
 			gender_ja = ConstantMsg.MALE;
 		} else if (this.gender == 2) {
 			gender_ja = ConstantMsg.FEMALE;
 		} else if (this.gender == 9) {
-			gender_ja = ConstantMsg.OTHER;
+			gender_ja = ConstantMsg.NO_ANSWER;
 		}
 
 		return empId + ConstantMsg.TAB + empName + ConstantMsg.TAB + gender_ja
